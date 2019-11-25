@@ -52,6 +52,7 @@ ggChoropleth(data = korpop1,
              map = kormap1,
              interactive =  T)
 
+
 str(changeCode(tbc))
 ggChoropleth(data = tbc,
              aes(fill = NewPts,
